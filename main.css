@@ -1,0 +1,90 @@
+.container{
+    width:100%;
+    position: relative;
+}
+.header{
+    width:100%;
+    display: block;
+    background-color:#0000ff;
+    color: aliceblue;
+    height: 50px;
+    
+}
+.header .nav-right ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000ff;
+}
+.header  .nav-right li {
+    float: left
+}
+.header  .nav-right li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+     
+.header  .nav-right li:hover{
+    background: #313196;
+    border-bottom: 2px solid orange;
+    height: 95%;
+
+}
+.nav-right{
+    float: right;
+    margin-right: 4%;
+  }
+  .nav-left{
+     float: left;
+     display: inline-flex;
+     width: 70%;
+  }
+
+.logo{
+    padding: 5px;
+}
+.search{
+    height: 100%;
+    padding: 5px;
+    width: 100%;
+    margin-left: 30px;
+}
+.search form input{
+    height: 35px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: left;
+    padding-left: 20px;
+}
+.search form button{
+    height: 100%;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #313196;
+    color: white;
+}
+.search form button:hover{
+    background-color: #2727c6;
+}
+.content{
+    width: 100%;
+    display: block;
+}
+.questions{
+    width: 70%;
+    float: left;
+}
+.most-answered{
+    width: 30%;
+    float: right;
+}
+.card{
+    width: 100% auto;
+    height: 400px;
+}
